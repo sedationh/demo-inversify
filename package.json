@@ -11,8 +11,10 @@
     "lint:fix": "biome check . --write"
   },
   "dependencies": {
+    "inversify": "7.0.0-alpha.5",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
